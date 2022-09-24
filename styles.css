@@ -18,21 +18,21 @@ header nav ul {
     list-style-type: none;
 }
 
-header nav .menu-item {
+header nav .nav-item {
     display: inline-block;
     padding: 0.625em 1.25em;
     line-height: 2em;
     box-sizing: border-box;
 }
 
-header nav .menu-item a {
+header nav .nav-item a {
     text-decoration: none;
     color: black;
     font-size: 1.55em;
     font-weight: bold;
 }
 
-header nav .menu-item.active {
+header nav .nav-item.active {
     text-decoration: underline;
 }
 
@@ -44,3 +44,17 @@ header nav .menu-item.active {
     width: 100%;
 }
 
+#imagen-nosotros {
+    width: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+}
+
+#imagen-nosotros:hover {
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+}
